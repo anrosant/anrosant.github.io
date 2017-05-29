@@ -9,7 +9,10 @@ body{
 	background-size: 60%;
 	background-position: top left;
 
-	margin: 1em 4em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 
 }
 div.resumen-recetas{
@@ -24,8 +27,7 @@ div.resumen-recetas{
 
 	background-position: top;
 
-	float: left;
-	overflow: auto;
+	display: inline-block;
 }
 .cajas:hover{
 	opacity: 0.7;
@@ -33,13 +35,13 @@ div.resumen-recetas{
 
 div#recetas{
 	border-style: solid;
-	border-width: 0px 0px 3px 0px;
-	overflow: auto;
+	border-width: 0px 0px 2px 0px;
 	padding-bottom: 2em;
 }
 
 .titulo-receta{
 	font-variant: small-caps;
+	background-color: rgba(255,255,255,0.7);
 
 	margin-top: 0px;
 }
@@ -76,6 +78,8 @@ a:visited{
 .cajas{
 	padding-bottom: 8em;
 	margin: 0px;
+
+	border-radius: 10pt;
 
 	background-size: 200px 175px;
 	background-repeat: no-repeat;
