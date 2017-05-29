@@ -1,0 +1,97 @@
+#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+}
+body{
+	/*background-image: url('receta2.jpg');*/
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: top left;
+
+	margin: 1em 4em;
+
+}
+div.resumen-recetas{
+	border-style: ridge;
+	border-radius: 10pt;
+	
+	background-repeat: no-repeat; 
+	background-size: 200px 170px;
+	margin-left: 10px;
+	width: 200px;
+	height: 250px;
+
+	background-position: top;
+
+	float: left;
+	overflow: auto;
+}
+.cajas:hover{
+	opacity: 0.7;
+}
+
+div#recetas{
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	overflow: auto;
+	padding-bottom: 2em;
+}
+
+.titulo-receta{
+	font-variant: small-caps;
+
+	margin-top: 0px;
+}
+.categoria{
+	border-style: solid;
+	margin-top: 0px;
+	border-width: 1px 0px 0px;
+	width: auto;
+	height: auto;
+}
+
+h4{
+	color:  #d69f2a;
+	margin: 0px;
+}
+
+p{
+	margin: 0px 0px 2px;
+	padding-left: 2px;
+	color: black;
+}
+
+a:link{
+	color: #db990a;
+}
+a:hover{
+	color: #edc163;
+	text-decoration: none;
+}
+a:visited{
+	color: #7c652e;
+}
+
+.cajas{
+	padding-bottom: 8em;
+	margin: 0px;
+
+	background-size: 200px 175px;
+	background-repeat: no-repeat;
+}
+#caja1{
+	background-image: url('bolon.jpg');
+}
+#caja2{
+	background-image: url('arroz-con-pollo.jpg');
+}
+#caja3{
+	background-image: url('biche-de-pescado.jpg');
+}
+#caja4{
+	background-image: url('salsa.jpg');
+}
+#caja5{
+	background-image: url('flan-de-coco.jpg');
+}
