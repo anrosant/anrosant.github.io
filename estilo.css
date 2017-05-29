@@ -1,0 +1,43 @@
+body{
+	margin-left: auto;
+	margin-right: auto;
+
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+h1{
+	text-align: center;
+
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 40px;
+
+    color: white;
+
+}
+div{
+	border-style: ridge;
+	border-width: 3px 0px 3px;
+	background-color:rgba(255,0,255,0.1);;
+
+	margin: 2em 24em;
+
+}
+
+a:hover{
+	opacity: 0.5;
+}
+
+a{
+	padding-left: 6em;
+	font-family: 'Verdana';
+	font-size: 30px;
+
+	color: white;
+}
+a:link{
+	text-decoration: none;
+}
+
