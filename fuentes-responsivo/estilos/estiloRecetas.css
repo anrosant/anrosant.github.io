@@ -1,0 +1,135 @@
+#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: #bc8609;
+
+	background-color:rgba(255,255,0,0.1);
+}
+body{
+	background-image: url('fondo1.jpg');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: top left;
+	background-attachment: fixed;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+section{
+	background-color:rgba(255,255,0,0.1);
+}
+div.resumen-recetas{
+	border-style: ridge;
+	border-radius: 10pt;
+	
+	background-repeat: no-repeat; 
+	background-size: 200px 170px;
+	margin-top: 1em;
+	margin-left: 10px;
+	width: 200px;
+	height: 250px;
+
+	background-position: top;
+
+	display: inline-block;
+}
+.cajas:hover{
+	opacity: 0.7;
+}
+
+div#recetas{
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	padding-bottom: 2em;
+	border-color: #FA8072;
+}
+
+.titulo-receta{
+	font-variant: small-caps;
+	background-color: rgba(255,255,255,0.8);
+
+	margin-top: 0px;
+}
+.categoria{
+	border-style: solid;
+	margin-top: 0px;
+	border-width: 1px 0px 0px;
+	width: auto;
+	height: auto;
+}
+
+h4{
+	color:  #d69f2a;
+	margin: 0px;
+}
+
+p{
+	margin: 0px 0px 2px;
+	padding-left: 2px;
+	color: black;
+
+	text-align: justify;
+}
+
+a:link{
+	color: #db990a;
+}
+a:hover{
+	color: #edc163;
+	text-decoration: none;
+}
+a:visited{
+	color: #7c652e;
+}
+
+.cajas{
+	background-size: 200px 175px;
+	background-repeat: no-repeat;
+
+	padding-bottom: 8em;
+	margin: 0px;
+
+	border-radius: 10pt 10pt 0pt 0pt;	
+}
+
+#caja1{
+	background-image: url('bolones.jpg');
+}
+#caja2{
+	background-image: url('pollo.jpg');
+}
+#caja3{
+	background-image: url('biche.jpg');
+}
+#caja4{
+	background-image: url('salsas.jpg');
+}
+#caja5{
+	background-image: url('flan.jpg');
+}
+.detalles > div > img{
+	width: 200px;
+	height: 170px;
+}
+
+.detalles{
+	margin: 1em 0em 1em;
+	border-width: 0pt 0pt 1pt;
+	border-style: dotted;
+	border-color: #e0d2b1;
+}
+.detalles div{
+	display: inline-block;	
+}
+.desc{
+	width:800px;
+}
+
+.descripcion{
+	text-align: justify;
+	padding-left: 5px;
+
+}
