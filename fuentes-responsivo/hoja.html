@@ -2,67 +2,95 @@
 <html>
 <head>
 	<title>Hoja de vida</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="estilos/estilo.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta charset="utf-8">
+
+  <link href="estilos/estilo.css" rel="stylesheet">
+
 </head>
 <body>
-	<header>
-		<h1 id="titulo">Hoja de vida</h1>
-	</header>
-	<section>
-		<div class="caja" id="caja1">
-			<!--img id="foto1" src="images/foto.jpg"-->
-			<!--h2>Anni Santacruz Hernández</h2-->
-			<div id="desc"><div id="ocultar">Ingeniería en ciencias computacionales<br>
-			Escuela Superior Politécnica del Litoral<br></div>
-			Guayaquil - Ecuador<br>
-			EC090112<br></div>
-		</div>
-		<img id="foto1" src="images/foto.jpg">
-		<div id="nombres"><h2>Anni Santacruz<br>Hernández</h2></div>
-		
-		<div class="caja" id="caja2">
-			<h2 id="centrar">Datos personales</h2>
-			Dirección: Sauces 3 Mz 176 villa 20<br>
-			teléfono/celular: 6041855-0991498204
-		</div>
-		<div class="caja" id="caja3">
-			<h2>Educación</h2>
-			<div id="contenedor1" class="contenedores">
-				<img src="images/espol.jpg">
-				<h3 class="logos" class="institucion">Escuela Superior Politécnica del Litoral</h3>
-				<p class="fecha">2014-actualmente</p> <!--Italic-->
-				<div class="materias">Fundamentos de programación - </div><div class="habilidades-aprendidas">Programación en Python</div>
-				<div class="materias">Estructura de datos - </div><div class="habilidades-aprendidas">Programación en Java</div>
-				<div class="materias">Sistema de base de datos - </div><div class="habilidades-aprendidas">Conocimientos de SQL</div>
-			</div>
-			<div class="contenedores">
-				<img src="images/logo.jpg">
-				<h3 class="logos" class="institucion">Instituto Tecnológico Provincia de Tungurahua</h3>
-				<p class="fecha">2016-1012</p>
-				<div class="habilidades-aprendidas">Conocimientos básicos de programación</div>
-				<div class="habilidades-aprendidas">Habilidades para trabajar en grupo</div>
-			</div>
-		</div>
-		<div class="caja" id="caja4">
+	<div class="container">
+		<div>
+        <h1 id="hide">Hoja de vida</h1>
+     </div>
+     <div class="row">
+        <div class="col-12" name="caja" id="caja1">
+	        <div class="row">
+		        <div class="col-12" name="nombre">
+		        		<h2 id="h2Nombre">Anni Santacruz Hernández</h2>
+	        	</div>
+        	</div>
+        	<div class="row">
+            <div class="col-3" id="imagenes" name="foto1">
+            	<img src="../images/foto.jpg" id="foto">
+            </div>
+            <div class="col-9" id="desc" name="des1">
+            	<p id="hide">Ingeniería en ciencias computacionales<br>
+				Escuela Superior Politécnica del Litoral</p>
+				Guayaquil - Ecuador<br>
+				EC090112<br>
+            </div>
+          	</div>
+        </div>
+      </div>
+
+      <div class="row" >
+        <div class="col-12" name="caja">
+        <h2 id="centrar">Datos Personales</h2>
+          <div class="row">
+            <div class="col-12" id="desc">
+            	Dirección: Sauces 3 Mz 176 villa 20<br>
+				Teléfono/celular: 6041855-0991498204
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="row"  id="educacion" name="caja">
+        <div class="col-12" id="titulo">
+          <h2>Educación</h2>
+          <div class="row" id="inst" name="desc1">
+            <div class="col-xs-12 col-3" id="imagenes"><img src="../images/espol.jpg"></div>
+            <div class="col-xs-12 col-9" id="interno" name="desc1">
+            	<h4 class="institucion">Escuela Superior Politécnica del Litoral</h4>
+            	<p id="fecha">2014-actualmente</p>
+            	<p class="materias">Fundamentos de programación -</p><p class="habilidades-aprendidas">Programación en Python</p>
+				<p class="materias">Estructura de datos - </p><p class="habilidades-aprendidas">Programación en Java</p>
+				<p class="materias">Sistema de base de datos - </p><p class="habilidades-aprendidas">Conocimientos de SQL</p>
+            </div>
+          </div>
+          <div class="row" id="inst" name="desc2">
+	        <div class="col-xs-12 col-3" id="imagenes" name="imgEdu"><img src="../images/logo.jpg"></div>
+	        <div class="col-xs-12 col-9" id="interno">
+	          	<h4 class="institucion">Instituto Tecnológico Provincia de Tungurahua</h4>
+	           	<p id="fecha">2006 - 2012</p>
+	           	<p class="habilidades-aprendidas">Conocimientos básicos de programación</p>
+				<p class="habilidades-aprendidas">Habilidades para trabajar en grupo</p>
+	        </div>
+          </div>
+          
+        </div>
+    </div>
+
+    <div class="row" >
+      	<div class="col-12" name="caja">
 			<h2>Habilidades Técnicas</h2>
-				<div id="habilidad">
+			<div class="row">
+				<div class="col-3" id="habilidad">
 					<span>75</span> Java
 				</div>
-				<div id="habilidad">
+				<div class="col-3" id="habilidad">
 					<span>80</span> C
 				</div>
-				<div id="habilidad">
+				<div class="col-3" id="habilidad">
 					<span>60</span> Python
 				</div>
-				<div id="habilidad">
+				<div class="col-3" id="habilidad">
 					<span>50</span> Ruby
-				</div>				
+				</div>	
+			</div>			
 		</div>
-		
-
-	</section>
+	</div>
 
 </body>
 </html>

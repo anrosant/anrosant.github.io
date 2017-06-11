@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 }
 section{
-	/*position: relative;*/
 	height: 200%;
 
 }
@@ -87,13 +86,8 @@ img:hover{
 
 	margin-bottom: 2%;
 }
-/*.cajas-cont-1{
-	position: absolute;
-}
-*/
 p{
 	text-align: justify;
-	/*max-width: 100%;*/
 }
 
 #caja1{

@@ -1,0 +1,93 @@
+@media only screen and (max-width : 576px) {
+    .container{
+      width: 95%;
+    }
+    .row{
+      width: auto;
+    }
+    [name="caja"] {
+      border: 0px;
+      border-radius: 10px;
+      background-color: #d4e3fc;
+    }
+    #inst{
+      float: left;
+      width: 50%;
+      margin-top: 25px;
+    }
+    .institucion{
+      text-align: center;
+    }
+    div[name="desc2"]{
+      margin-left: 30px;
+    }
+    [name="nombres"] {
+      border: 0px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    #habilidad{
+      width: 40%;
+    }
+    #educacion{
+      border: 1px solid #ddd;
+    }
+    #titulo{
+      border: 0px;
+    }
+    h2{
+      font-size: 25px;
+    }
+    div[name="desc1"]{
+      border-bottom: 0px;
+    }
+    [class*="col-"] {
+    padding: 15px 5px;
+
+    }
+    #hide,.materias{
+      display: none;
+    }
+    .habilidades-aprendidas{
+    float: left;
+    }
+    .habilidades-aprendidas::after{
+      content: ", ";
+    }
+    [name="imgEdu"] {
+      margin-left: 10px;
+    }
+
+
+      /*FOTO*/
+    [name="nombre"] {
+      padding: 0px !important;
+      left: 33.5%;
+      position: absolute;
+      max-width: 105px;
+      z-index: 2;
+      border: 1px solid;
+      background-color: white;
+      opacity: 0.6;
+      top: 30%;
+    }
+    h2#h2Nombre {
+        font-size: 15px;
+        margin: 0px;
+    }
+    div#caja1 {
+        margin-top: 20%;
+    }
+
+    [name="foto1"] {
+        position: absolute;
+        top: -30% !important;
+        left: 33.5%;
+        padding: 0px !important;
+    }
+    [name="des1"] {
+        padding-top: 100px;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
