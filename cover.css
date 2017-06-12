@@ -191,3 +191,7 @@ a{
     width: 700px;
   }
 }
+
+.talleres{
+	border-bottom: 1px solid white;
+}

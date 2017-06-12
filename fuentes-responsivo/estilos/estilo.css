@@ -137,6 +137,11 @@ img#foto {
     [class*="col-"] {
         width: 100%;
     }
+
+    .col-4 {width: 33.33%;}
+    .col-6 {width: 50%;}
+    .col-8 {width: 66.66%;}
+
     .container{
       width: 95%;
     }
@@ -231,7 +236,7 @@ img#foto {
     }
     [name="des1"] {
         padding-top: 100px;
-        margin-top: 50px;
+        margin-top: 55px;
         text-align: center;
     }
 }
