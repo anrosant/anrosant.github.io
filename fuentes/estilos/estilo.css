@@ -43,7 +43,7 @@ h3.institucion{
 	margin: 0em;
 }
 
-div#habilidad{
+.habilidad{
 	width: 100px;
 	border-radius: 70px;
 	margin: 10px;
@@ -57,7 +57,7 @@ div#habilidad{
 	display: block;
 }
 
-div#habilidad span{ 
+.habilidad span{ 
 	color: white;
 	border-radius: 70px;
 	background: #241872;

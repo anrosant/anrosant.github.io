@@ -97,10 +97,10 @@ p{
 
 		text-align: center;
 	}
-	#caja1, #caja2{
+	.caja1, .caja2{
 		display: none;
 	}
-	#caja3{
+	.caja3{
 		width: 100%;
 		position: absolute;
     	top: 220px;
@@ -131,10 +131,10 @@ p{
     	text-align: center;
 
 	}
-	#caja4{
+	.caja4{
 		margin-bottom: 80px;
 	}
-	#caja3{
+	.caja3{
 		width: 100%;
 	    position: absolute;
 	    top: 230px;
@@ -142,7 +142,7 @@ p{
 }
 
 @media only screen and (max-width: 768px){
-	#cont1 #caja3, #caja4, #tit-sinopsis, #cont2 #caja2, #cont3 #caja2, li[famoso="secundario"]{
+	#cont1 .caja3, .caja4, #tit-sinopsis, #cont2 .caja2, .cont3 .caja2, li[famoso="secundario"], .ocultar{
 		display: none;
 	}
 	h1{
@@ -193,7 +193,7 @@ p{
 	p{
 		font-size: 11px;
 	}
-	#caja1{
+	.caja1{
 		padding-right: 0px;
 	}
 }

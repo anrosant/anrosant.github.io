@@ -115,7 +115,7 @@ img{
 		text-align: center;
 		font-size: 2em;
 	}
-	#ocultar{
+	.ocultar{
 		display: none;
 	}
 	[name="cajas"] {
@@ -136,7 +136,7 @@ img{
 	  	float: left;
     	width: 50%;
 	}
-	h1#titulo-detalle {
+	h1.titulo-detalle {
 	    position: absolute;
 	    text-align: center;
 	    font-size: 20px;

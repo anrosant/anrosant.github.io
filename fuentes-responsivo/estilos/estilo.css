@@ -66,7 +66,7 @@ hr {
   margin-bottom: 40px;
 }
 
-#imagenes{
+.imagenes{
   padding: 5px 15px;
   max-width: 100%;
   border: 0px;
@@ -76,8 +76,9 @@ hr {
   padding: 0px 15px;
   border: 0px;
 }
-#interno{
+.interno{
   border: 0px;
+  border-style: none !important;
 }
 #centrar{
   text-align: center;
@@ -95,7 +96,7 @@ img{
 }
 
 
-#habilidad{
+[name="habilidad"]{
   border-radius: 3em;
   margin: 1.5%;
   padding-top: 1.5%;
@@ -107,7 +108,7 @@ img{
   box-shadow: 0.3em 0.3em 0.5em grey;
 }
 
-#habilidad span{ 
+[name="habilidad"] span{ 
   color: white;
   border-radius: 3em;
   background: #241872;
@@ -169,8 +170,9 @@ img#foto {
       padding-top: 2px;
       padding-bottom: 2px;
     }
-    #habilidad{
+    [name="habilidad"]{
       width: 40%;
+      padding: 5px 1px!important;
     }
     #educacion{
       border: 1px solid #ddd;
@@ -188,7 +190,7 @@ img#foto {
     padding: 15px 5px;
 
     }
-    #hide,.materias{
+    .ocultar,.materias{
       display: none;
     }
     .habilidades-aprendidas{
